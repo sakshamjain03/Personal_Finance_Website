@@ -1,0 +1,15 @@
+/*To setup Server and download packages in node modules*/
+mkdir server
+cd server
+npm i express body-parser cors dotenv helmet morgan mongoose nodemon
+
+/*to setup back end*/
+npm install mongoDb
+
+/* To check server */
+npm run dev
+
+/*to create react app and download packages*/
+cd ..
+npx create-react-app client
+npm i react-redux @reduxjs/toolkit react-datepicker react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icon-material @mui/x-data-grid @nivo/core @nivo/bar @nivo/geo @nivo/pie
