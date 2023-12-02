@@ -12,4 +12,5 @@ npm run dev
 /*to create react app and download packages*/
 cd ..
 npx create-react-app client
-npm i react-redux @reduxjs/toolkit react-datepicker react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icon-material @mui/x-data-grid @nivo/core @nivo/bar @nivo/geo @nivo/pie
+npm set registry=https://registry.npmjs.org/
+npm i react-redux @reduxjs/toolkit  react-datepicker react-router-dom@6 @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/x-data-grid @nivo/core @nivo/bar @nivo/geo @nivo/pie

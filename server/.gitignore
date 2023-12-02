@@ -1,4 +1,4 @@
 # Ignore VSCode folders
 .vscode/*
 .env
-/node_mdules
+**/node_modules
